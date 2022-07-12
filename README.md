@@ -1,6 +1,8 @@
 # IEnabler
 Opens Internet Explorer on systems with only Internet Explorer Mode
 
+[Download](https://github.com/realJoshByrnes/IEnabler/releases/)
+
 ![Internet Explorer 11 on Windows 11 21H2](/Screenshot.png?raw=true)
 
 Built with Microsoft Visual Basic 6.0 (Don't Ask!)
