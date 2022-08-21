@@ -26,7 +26,7 @@ Private Sub Form_Load()
     On Error GoTo ErrorHandler
     Me.Hide
     Set iExplore = Controls.Add("Shell.Explorer.2", "webctl", Me) ' Create
-    iExplore.object.Navigate2 "about:blank" ' Activate
+    iExplore.object.Navigate2 "about:home" ' Activate
     iExplore.object.Document.parentWindow.execScript "window.open('about:home');" ' Magic Happens (New Window)
     Unload Me ' Self destruct.
     Exit Sub
